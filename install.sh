@@ -45,7 +45,7 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get -y install python2 python2-dev unzip
 sudo DEBIAN_FRONTEND=noninteractive apt-get -y install python2.7 python2.7-dev unzip >/dev/null 2>&1
 sudo DEBIAN_FRONTEND=noninteractive apt-get -y install python2.8 python2.8-dev unzip >/dev/null 2>&1
 sudo DEBIAN_FRONTEND=noninteractive apt-get -y install python3 python3-dev unzip >/dev/null 2>&1
-cd /root
+
 wget https://github.com/amidevous/xui.one/releases/download/test/XUI_1.5.12.zip -O XUI_1.5.12.zip >/dev/null 2>&1
 unzip XUI_1.5.12.zip >/dev/null 2>&1
 wget https://raw.githubusercontent.com/amidevous/xui.one/master/install.python3 -O /root/install.python3 >/dev/null 2>&1
