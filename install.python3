@@ -120,7 +120,7 @@ if __name__ == "__main__":
         os.system('sudo DEBIAN_FRONTEND=noninteractive apt-get update')
         os.system('sudo DEBIAN_FRONTEND=noninteractive apt-get -y install build-essential')
         os.system('sudo DEBIAN_FRONTEND=noninteractive apt-get -y build-dep php7.4')
-        os.system('sudo wget https://raw.githubusercontent.com/amidevous/xui.one/master/build-php.sh -O /root/build-php.sh')
+        os.system('sudo wget https://raw.githubusercontent.com/SarkarKurdish/xui.one/master/build-php.sh -O /root/build-php.sh')
         os.system('cd /root && sudo bash /root/build-php.sh')
         os.system('sudo rm -rf /root/build-php.sh')
         if not os.path.exists("/home/xui/status"):
@@ -132,7 +132,7 @@ if __name__ == "__main__":
         os.system('sudo apt-get update')
         os.system('sudo apt-get -y install build-essential')
         os.system('sudo apt-get -y build-dep php7.4')
-        os.system('sudo wget https://raw.githubusercontent.com/amidevous/xui.one/master/build-php.sh -O /root/build-php.sh')
+        os.system('sudo wget https://raw.githubusercontent.com/SarkarKurdish/xui.one/master/build-php.sh -O /root/build-php.sh')
         os.system('cd /root && sudo bash /root/build-php.sh')
         os.system('sudo rm -rf /root/build-php.sh')
         if not os.path.exists("/home/xui/status"):
